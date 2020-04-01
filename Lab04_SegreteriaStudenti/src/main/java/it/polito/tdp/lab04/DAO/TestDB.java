@@ -9,9 +9,11 @@ public class TestDB {
 		 */
 		
 		CorsoDAO cdao = new CorsoDAO();
-		cdao.getTuttiICorsi();
+		//cdao.getTuttiICorsi();
 		
-		
+		StudenteDAO sdao = new StudenteDAO();
+		System.out.println(sdao.getStudenteByMatricola(148072).toString());
+		System.out.println(sdao.getStudenti());
 	}
 
 }

@@ -6,10 +6,10 @@ public class TestModel {
 
 		Model model = new Model();
 		
-		/*
-		 * 	Write here your test model
-		 */
-
+		//System.out.println(model.completa(148072));
+		//System.out.println(model.getElencoStudenti());
+		//System.out.println(model.cercaIscrittiCorso(Diritto Commerciale));
+		
 	}
 
 }
