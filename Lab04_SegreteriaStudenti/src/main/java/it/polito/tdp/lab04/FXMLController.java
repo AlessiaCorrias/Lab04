@@ -114,6 +114,7 @@ public class FXMLController {
     	txtResult.clear();
     	Corso scelta = comboCorsi.getValue();
     	
+    	
     	if(scelta != null && scelta!=model.getCo()) {
     		if(txtMatricola.getText()== null || txtMatricola.getText().equals("")) {
     	txtResult.appendText(model.cercaIscrittiCorso(scelta)); 
